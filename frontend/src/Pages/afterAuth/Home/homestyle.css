@@ -1,0 +1,27 @@
+.course--div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+}
+.course--card{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    height: 500px;
+    width: 500px;
+
+}
+.course--img{
+    width: 500px;
+    height: 350px;
+}
+.search--courselist{
+    display: flex;
+    gap: 2rem;
+}
+.search--courselist>input{
+    width: 40%;
+    padding: .8rem;
+    margin: 1rem;
+    border-radius: 20px;
+}
+

@@ -1,0 +1,54 @@
+
+.create-user{
+    /* height: 50%; */
+    /* height: 50vw; */
+    width: 50%;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+.create{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.create>input{
+    width: 70%;
+    padding: .8rem .4rem;
+    font-size: 16px;
+}
+.create-user>h2{
+    text-align: center;
+    margin-block: 2rem;
+}
+.create>button{
+    padding: .7rem 2rem;
+    font-size: 16px;
+}
+.create>div>button{
+    padding: .7rem 2rem;
+    font-size: 16px;
+}
+.create>.gender{
+    display: flex;
+    justify-content: space-between;
+}
+.agentlist{
+    padding: 2rem;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

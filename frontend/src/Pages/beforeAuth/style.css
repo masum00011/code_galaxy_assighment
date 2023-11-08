@@ -1,0 +1,57 @@
+.main--contaner{
+    display: flex;
+    height: 100vh;
+}
+.main--contaner>section:first-child{
+    width: 50%;
+}
+.main--contaner>section:last-child{
+    width: 50%;
+    background-color: #8458B3;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.left>h1{
+    font-size: 35px;
+}
+.right{
+    text-align: center;
+    color: white;
+}
+.right,.left{
+    height: 300px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 2rem;
+    width: 50%;
+}
+.left>input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    padding-block: .5rem;
+    font-size: 16px;
+}
+.left>button{
+    padding-block: .9rem;
+    font-size: 17px;
+    border-radius: 30px;
+    background-color: #8458B3;
+    color: white;
+    cursor: pointer;
+}
+.error--message{
+    position: absolute;
+    bottom: 4rem;
+    color: red;
+
+}
